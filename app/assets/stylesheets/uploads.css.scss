@@ -1,0 +1,86 @@
+#outer {
+    width: 100%;
+    position: relative;
+}
+.box {
+    float: left;
+    background-color: #00ffff;
+    position: relative;
+}
+
+.inner {
+    float: left;
+    background-color: #eeeeee;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+/* --------------------------------------------- */
+#fillers{
+			display: none;
+		}
+		.fillerBox {
+			float: left;
+			position: relative;
+		}
+
+
+.uploadtitle {
+     font-style: italic;
+     padding-bottom: 6px;
+}
+
+.textarea {
+  background-color: #d3d3d3;
+  width: 700px;
+  text-align: left;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#notcentertext {
+  text-align: left;
+  padding-left: 405px;
+  font-size: medium;
+  font-style: italic;
+}
+
+#rule {
+  height: 2px;
+  width: 700px;
+  background-color: #6dcff6;
+  margin: auto auto;
+}
+
+.theform {
+  width: 50px
+}
+
+#title {
+  height: 50px;
+}
+
+#showbox {
+  background-color: #6dcff6;
+  width: 700px;
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 400px;
+  border: 0px;
+  border-radius: 5px;
+}
+
+.showposts {
+  width: 700px;
+  height: 500px;
+  margin-left: 400px;
+  text-align: left;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
